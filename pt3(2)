@@ -1,0 +1,13 @@
+an = int(input("Введи кол-во часов сна:"))
+nor_hou = 8
+no_hou = 4
+def hou_norm (an):
+    if an == nor_hou:
+        print("Это нормально")
+    elif an > nor_hou:
+        print("Пересып")
+    else:
+        print("Недосып")
+# print(f"{an} часов это: {hou_norm (an)}")
+
+hou_norm(an)

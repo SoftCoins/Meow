@@ -1,0 +1,12 @@
+import math
+from math import *
+
+st_1 = int(input("Введи первую сторону:"))
+st_2 = int(input("Введи вторую сторону:"))
+st_3 = int(input("Введи третью сторону:"))
+
+summ = st_1 + st_2 + st_3
+p = summ // 2
+s_1 = p *( p - st_1) * ( p - st_2 ) * ( p - st_3 )
+s = sqrt(s_1)
+print(s)

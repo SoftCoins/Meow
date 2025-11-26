@@ -1,0 +1,8 @@
+n = int(input())
+
+if n % 10 == 1 and n % 100 != 11:
+    print(f"{n} програмист")
+elif n % 10 in [2, 3, 4] and n % 100 not in [12, 13, 14]:
+    print(f"{n} програмиста")
+else:
+    print(f"{n} програмистов")

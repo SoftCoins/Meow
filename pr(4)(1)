@@ -1,0 +1,12 @@
+n = int(input("Введи число:"))
+
+def pr_n(n):
+    if n < 0:
+        n *= -1
+        print(n)
+    elif n == 0:
+        n = 1
+        print(n)
+    else:
+        print(n)
+pr_n(n)

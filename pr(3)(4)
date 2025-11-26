@@ -1,0 +1,42 @@
+import math 
+from math import *
+
+print("Найти площадь комнаты:\n1.Ввиде треугольника\n2.Ввиде прямоугольника\n3.Ввиде круга\nВарианты ответа:1 ,2 ,3 ")
+answ = int(input("ответ:"))
+
+def answ_fig(answ):
+    if answ == 1:
+        Tri_s()
+    elif answ == 2:
+        Rec_s()
+    elif answ == 3:
+        Cir_s()
+    else:
+        print("ошибка!")
+
+
+def Tri_s():
+    tr_1s = int(input("Первая стена-"))
+    tr_2s = int(input("Вторая стена-"))
+    tr_3s = int(input("Третья стена-"))
+    tr_sum = tr_1s + tr_2s + tr_3s
+    p = tr_sum // 2
+    s_1 = p *( p - tr_1s) * ( p - tr_2s ) * ( p - tr_3s )
+    tr_s = sqrt(s_1)
+    print(f"Жил. площадь вашей комнаты:{tr_s}")
+
+def Rec_s():
+    re_1 = int(input("Первая стена-"))
+    re_2 = int(input("Вторая стена-"))
+    re_s = re_1 * re_2
+    print(f"Жил. площадь вашей комнаты:{re_s}")
+    
+def Cir_s():
+    pi = 3.14
+    rad_cir = int(input("Радиус комнаты-"))
+    rad_cir = exp(2)
+    cir_s = pi * rad_cir
+    print(f"Жил. площадь вашей комнаты:{cir_s}")
+
+
+answ_fig(answ)

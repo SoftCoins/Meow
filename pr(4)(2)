@@ -1,0 +1,5 @@
+n = input("Введи строку:")
+if "." in n or "," in n:
+    print(True)
+else:
+    print(False)

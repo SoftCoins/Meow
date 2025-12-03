@@ -1,0 +1,12 @@
+n1 = int(input("Введи число:"))
+n2 = int(input("Введи число:"))
+
+m1 = n1 % 3 == 0
+m2 = n2 % 3 == 0
+
+if m1 and m2:
+    print(True)
+elif m1 or m2:
+    print("Одно число делиться 3")
+else:
+    print(False)

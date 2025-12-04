@@ -1,0 +1,12 @@
+n = input("Введи название файла:")
+
+nnin_lower = n.lower()
+
+if nnin_lower.endswith ('.doc'):
+    print("Разширение файла Word file")
+elif nnin_lower.endswith ('.py'):
+    print("Разширение файла Python file")
+elif nnin_lower.endswith ('.txt'):
+    print("Разширение файла Text file")
+else:
+    print("Разширение файла не найден")

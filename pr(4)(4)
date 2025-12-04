@@ -1,0 +1,12 @@
+print("Не больше 100 звёзд")
+
+n = int(input("Введи кол-во звезд"))
+
+def n_n(n):
+    if n == 100:
+        print("*")
+    else:
+        for n in range(n):
+            print("*")
+
+n_n(n)

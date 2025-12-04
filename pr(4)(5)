@@ -1,0 +1,8 @@
+n = input("Введи первую строку:")
+
+n1 = input("Введи вторую строку:")
+
+if n == n1:
+    print(True)
+else:
+    print(False)

@@ -1,0 +1,16 @@
+r = int(input("Сколько красного\n"))
+g = int(input("Сколько зелёного\n"))
+b = int(input("Сколько синего\n"))
+
+if r == 255 and g == 255 and b == 255:
+    print("Белый")
+elif r == 0 and  g == 0 and b == 0:
+    print("Черный")
+elif r == 255 and  g == 0 and b == 0:
+    print("Красный")
+elif r == 0 and  g == 255 and b == 0:
+    print("Зелёный")
+elif r == 0 and  g == 0 and b == 255:
+    print("Синий")
+else:
+    print("Нет цвета")

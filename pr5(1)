@@ -1,0 +1,8 @@
+m_l = [3, 8, 0, 'Hi', 10, 'Python']
+print(m_l)
+
+m_l.remove(0)
+print(m_l)
+
+m_l.remove('Hi')
+print(m_l)

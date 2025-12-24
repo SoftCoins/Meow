@@ -1,0 +1,11 @@
+str_1 = int(input("Первая сторона:"))
+str_2 = int(input("Вторая сторона:"))
+
+if str_1 == str_2:
+    n = str_1 * str_2
+    print(f"квадрат , площадь {n}")
+elif str_2 == 0 or str_1 == 0:
+    print("Ошибка")
+else:
+    nt = str_1 * str_2
+    print(f"прямоугольник , площадь {nt}")
